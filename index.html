@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="ma.css">
+</head>
+<body>
+  <div class="cruds">
+    <div class="head">
+      <h1>cruds</h1>
+      <p>create products list</p>
+    </div>
+    <div class="input">
+   <input type="text" name="" id="title" placeholder="title">
+   <div class="price">
+    <input onkeyup="getTotal()" type="number" name="" id="price" placeholder="price">
+    <input onkeyup="getTotal()" type="number" name="" id="taxes" placeholder="taxes">
+    <input onkeyup="getTotal()" type="number" name="" id="ads" placeholder="ads">
+    <input onkeyup="getTotal()" type="number" name="" id="discount" placeholder="discount">
+    <small id="total"></small>
+   </div>
+   <input type="text" name="" id="count" placeholder="count">
+   <input type="text" name="" id="category" placeholder="category">
+   <button id="submite">submite</button>
+    </div>
+    <div class="output">
+      <div class="search">
+        <input type="text" name="" id="to" placeholder="search">
+        <div class="btn">
+           <button >search with title</button>
+          <button>search with catogary </button> 
+        </div>
+      </div>
+      <div id="all"></div>
+      <table class="we">
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>price</th>
+            <th>taxes</th>
+            <th>ads</th>
+            <th>discount</th>
+            <th>total</th>
+            <th>count</th>
+            <th>catagory</th>
+            
+          </tr>
+          
+        </thead>
+        <tbody id="tbody">
+          <!-- <tr>
+            <td>id</td>
+            <td>title</td>
+            <td>price</td>
+            <td>taxes</td>
+            <td>ads</td>
+            <td>discount</td>
+            <td>total</td>
+            <td>count</td>
+            <td>catagory</td>
+            <td>gfgfg</td>
+             <td><button id="delete">delete</button>
+              <button id="updata">updata</button></td> 
+          </tr>
+          <tr>
+            <td>id</td>
+            <td>title</td>
+            <td>price</td>
+            <td>taxes</td>
+            <td>ads</td>
+            <td>discount</td>
+            <td>total</td>
+            <td>count</td>
+            <td>catagory</td>
+            <td>gfgfg</td>
+             <td><button id="delete">delete</button>
+              <button id="updata">updata</button></td> 
+          </tr>
+          <tr>
+            <td>id</td>
+            <td>title</td>
+            <td>price</td>
+            <td>taxes</td>
+            <td>ads</td>
+            <td>discount</td>
+            <td>total</td>
+            <td>count</td>
+            <td>catagory</td>
+            <td>gfgfg</td>
+            
+          </tr>
+          <tr>
+            <td>id</td>
+            <td>title</td>
+            <td>price</td>
+            <td>taxes</td>
+            <td>ads</td>
+            <td>discount</td>
+            <td>total</td>
+            <td>count</td>
+            <td>catagory</td>
+            <td>gfgfg</td>
+            
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

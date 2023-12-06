@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Open Sans', sans-serif;
+    background:#f2f3f7;
+}
+.cruds{
+    width:80%;
+    margin:auto;
+}
+
+.head{
+   
+   text-transform : uppercase;
+    text-align: center ;
+
+
+}
+.input{
+    text-align:center;
+}
+#title{
+    width: 717px;
+    height: 31px;
+    margin: 10px 0;
+    border:none;
+    outline: none;
+    border-radius:4px;
+
+}
+#title:focus{
+    transform: scale(1.1);
+    background: #f2f3f7;
+}
+#title:focus{
+    transform:scale(1.1);
+    background:yellow;
+}
+input{
+    width:100%;
+    height:30px;
+    border-radius:5px;
+    outline:none;
+    border:none;
+    background:white;
+    color:#4d4e6c;
+    font-size:14px;
+    margin:4px 0;
+    padding:4px;
+    
+}
+input:focus{
+    transform:scale(1.1);
+    background:yellow;
+}
+ .price input {
+    width:20%;} 
+   
+#total{
+        background:pink;
+        padding:5px 2px;
+        border-radius:4px;
+    }
+    #total::before{
+        content:"Total : ";
+    } 
+
+button{
+    width:100%;
+    background:pink;
+    color: #f2f3f7 ;
+    border:none;
+    
+    font-weight: bold;
+    outline:none;
+    border-radius:5px;
+    cursor:pointer;
+    height:30px;
+    transition: 0.5s;
+}
+button:hover{
+    background:#c33a9c;
+letter-spacing:2px;
+
+}
+#to{
+    margin:4px 0;
+}
+.btn{
+    
+    
+    display: flex;
+    justify-content:space-between;
+    margin:5px 5px;
+}
+.btn button{
+    margin-bottom: 5px;
+margin-left:4px;
+height:40px;
+width: 439px; }
+#updata{
+    width:72px;
+    height:20px;
+}
+#delete{
+    width:72px;
+    height:20px;
+}
+.we{
+    width: 100%;
+    border:none;
+    outline:none;
+    background:white;
+    text-align:center;
+    padding:2px 0;
+}
+table thead{
+    text-transform:uppercase;
+}
+th,td{
+    padding:2px ;
+}
+#all{
+    margin:20px 0;
+}
+
+
+
+
+
+
